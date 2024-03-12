@@ -1,4 +1,14 @@
 
+
 git --git-dir option //
 
 git rev-parse --show-toplevel //Show the absolute path of the top-level directory.
+
+git remote add origin git@github.com:<username>/demo_app.git
+git push -u origin master
+
+--------
+git add .
+git commit -m 'comment for push'
+git push
+--------
